@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import dynamic from "next/dynamic";
 import "react-multi-carousel/lib/styles.css";
 import { GoArrowUpRight, GoChevronRight, GoChevronLeft  } from "react-icons/go";
-import projectsData from "./projectsData"
+import projectsData from "../data/projectsData.jsx"
 
 // Dynamically import to disable SSR for the carousel
 const Carousel = dynamic(() => import("react-multi-carousel"), { ssr: false });
