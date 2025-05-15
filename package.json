@@ -1,10 +1,11 @@
 {
-  "name": "chad_site",
+  "name": "websitevitefinal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Chad1704.github.io/chad_site",
+
+  "homepage": "https://chad1704.github.io/websitevitefinal",
   "scripts": {
-  
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
    
